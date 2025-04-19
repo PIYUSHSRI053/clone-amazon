@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+#nav-bar {
+    background-color: #0F1111;
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-content: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.font1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+.font2 {
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.nav-address {
+    float: center;
+    margin-left: 30px;
+    color: white;
+}
+
+.gfg {
+    text-decoration: none;
+    color: white;
+}
+
+.gfg2 {
+    color: rgb(14, 198, 235);
+    text-decoration: none;
+}
+
+.gfg2:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.nav-search {
+    margin-left: 90px;
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(196, 84, 10);
+    border-radius: 10px;
+    height: 45px;
+}
+
+.search-icon {
+    background-color: rgb(196, 84, 10);
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 30px;
+}
+
+
+.select {
+    border: transparent;
+}
+
+.bar {
+    padding: 7px 10px 10px 0px;
+    width: 631px;
+}
+
+.flag {
+    height: 20px;
+}
+
+.nav-lang {
+    display: flexbox;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.font3 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 5px;
+    margin-top: 11px;
+}
+
+.font4 {
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+    font-style: bold;
+}
+
+.nav-signin {
+    margin-left: 20px;
+}
+
+
+.nav-order {
+    margin-left: 20px;
+}
+
+.nav-cart {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.nav-cart i {
+    font-size: 35px;
+    height: 25px;
+}
+
+.nav-cart p {
+    margin-top: 15px;
+    font-size: large;
+    font-style: bold;
+}
+
+.panel {
+    height: 45px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-opt p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-opt {
+    width: 70%;
+    font-style: bold;
+    font-size: 0.90rem;
+}
+
+.panel-all {
+    margin-left: 5px;
+    font-style: bold;
+}
+
+/* hero-sec */
+/* .hero-sec {
+    background-image: url("J23_P3B_PC_NTA_Hero_C4_ET_2x._CB574339486_.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+
+} */
+
+
+
+
+
+
+
+/* Slideshow ka code */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: static;
+    margin: auto;
+    height: 350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: flex;
+}
+
+.img123 {
+    width: 100%;
+    background: fixed;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    position: relative;
+    height: 400px;
+    max-width: 28%;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+
+}
+
+.box-img {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.text1 {
+    margin: 10px;
+}
